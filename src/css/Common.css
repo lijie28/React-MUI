@@ -1,0 +1,74 @@
+.mainBg {
+    /* text-align: bottom; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mainArea {
+    text-align: right;
+    width: 80%;
+    height: 80%;
+    border: 3px solid rgb(35, 134, 233);
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.subArea {
+    text-align: center;
+    height: 80%;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgb(135, 21, 21); */
+}
+
+.bgTest {
+    background-color: rgb(135, 21, 21);
+}
+
+.sliderPadding {
+    margin-top: 50px;
+}
+
+.marginAutoContainer {
+    width: 500;
+    height: 80;
+    display: 'flex';
+    background-color: 'gold';
+}
+
+.marginAutoItem {
+    margin: 'auto';
+}
+
+.mainText {
+    font-size: 18px;
+}
+
+.mainTextBold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.proceedButton {
+    position: relative;
+    left: 80%;
+    top: 80%;
+
+}
