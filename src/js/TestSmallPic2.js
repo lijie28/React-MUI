@@ -1,11 +1,5 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-
-
 import Slider from '@mui/material/Slider';
 
 const picUrl = 'https://lj28.s3.ap-northeast-1.amazonaws.com/test1.png'

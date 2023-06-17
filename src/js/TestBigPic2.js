@@ -21,7 +21,7 @@ export class TestBigPic2 extends React.Component {
         return this.state.value != null
     }
 
-    handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    handleChange = (event) => {
         this.setState({
             value: event.target.value
         })

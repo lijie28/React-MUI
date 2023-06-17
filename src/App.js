@@ -1,9 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import { Homepage } from './js/Homepage';
-import { Admin } from './js/Admin';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -16,11 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Homepage data={data} />}>
-          <Route path="/admin" element={<Admin />} />
-        </Route>
-      </Routes>
+      <Homepage data={data} />
     </BrowserRouter>
   );
 }
